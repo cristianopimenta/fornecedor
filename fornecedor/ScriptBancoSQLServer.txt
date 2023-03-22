@@ -1,0 +1,20 @@
+USE [DBFornecedor]
+GO
+
+/****** Object:  Table [dbo].[fornecedor]    Script Date: 21/03/2023 14:49:57 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[fornecedor](
+	[fornecedorId] [int] IDENTITY(1,1) NOT NULL,
+	[razaosocial] [varchar](100) NULL,
+	[cnpj] [varchar](20) NULL,
+	[telefone] [varchar](20) NULL,
+	[endereco] [varchar](100) NULL
+) ON [PRIMARY]
+GO
+
+
